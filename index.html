@@ -1,6 +1,21 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE html>
+{% load static %}
+<link rel = "stylesheet", type = "text/css", href = "{% static 'Home/style.css'%}">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand">
+<script src = "{% static 'Home/animation.js'}"></script>
+<canvas id="canvas"></canvas>
 <html>
-<body>
-	<h1> Hello World </h1>
-</body>
-</hmtl>
+    <head>
+        <meta charset="utf-8">
+        <title>Nikolaos Manginas Personal Website</title>
+    </head>
+    <body>
+	<script src = "{% static 'Home/animation.js' %}"> </script> 
+	<h1>Nikolaos </h1>
+	<a class = "three" href = "mailto:nickmanginas@gmail.com" target = "_blank">nickmanginas@gmail.com</a>
+	<p> Meng University College London(UCL) <br> Electrical and Electronic Engineering with Computer Science <br> <br> I am a young Software Engineer currenly based in London <br> with experience in multiple languages and frameworks <br> but specialzing in Python and Machine Learning. </p> 
+	<a class = "one" href = "https://github.com/nickmagginas" target = "_blank"><img src = "{% static 'Home/images/github.png' %}" width = "42" height = "46" ></a>
+	<a class = "two" href = "cv/" target = "_blank"><img src = "{% static 'Home/images/atach.png' %}" width = "42" height = "46"></a>
+	<span id="note">Click to add fireflies</span>
+    </body>
+</html>
