@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #2f294f;
+  margin: 0;
+}
+
+#note {
+  position: absolute;
+  color: rgba(249,241,204,1);
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+  font-family: Arial;
+}
+
+/*body {
+    background: url("images/back6.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+
+h1 {
+	
+	position: absolute;
+	left:1300px;
+	top: 150px;
+	color: #808080;
+	font-family: Quicksand;
+}
+
+h1:after{
+	content: 'Manginas';
+	background-color: #FF8C00;
+}
+
+a.three:link {
+	text-decoration: none;
+	position: absolute;
+	left:1300px;
+	top: 225px;
+	font-size: 20px;
+	color: #D3D3D3;
+}
+
+a.three:visited {
+	text-decoration: none;
+	position: absolute;
+	left:1300px;
+	top: 225px;
+	color: #D3D3D3;
+}
+
+a.three:hover {
+	color: #808080;
+}
+
+p{
+	position: absolute;
+	left: 1300px;
+	top: 250px;
+	color: #808080;
+
+}
+
+
+
+a.one:link {text-decoration: none; position: absolute; left: 1300px; top: 400px;}
+a.two:link {color: #808080; text-decoration: none; position: absolute; left: 1380px; top: 400px;}
+a.one:visited {text-decoration: none;}
+a.two:visited {color: #808080; text-decoration: none;}
+a.one:hover {text-decoration: underline;}
+a.two:hover {text-decoration: underline;}
+img {opacity: .5;}
+img:hover {opacity: 1;}
