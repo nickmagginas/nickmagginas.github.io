@@ -63,7 +63,7 @@ a.three:hover {
 	color: #808080;
 }
 
-p{
+.des {
 	position: absolute;
 	left: 1300px;
 	top: 250px;
@@ -71,6 +71,8 @@ p{
 
 }
 
+.git {position:absolute; left:60px; top:0px; color: #808080;}
+.res{position:absolute; left:60px; top:0px; color: #808080;}
 
 
 a.one:link {text-decoration: none; position: absolute; left: 1300px; top: 400px;}
@@ -78,6 +80,9 @@ a.two:link {color: #808080; text-decoration: none; position: absolute; left: 138
 a.one:visited {text-decoration: none;}
 a.two:visited {color: #808080; text-decoration: none;}
 a.one:hover {text-decoration: underline;}
+a.one:hover > .gitim {opacity: 1;}
 a.two:hover {text-decoration: underline;}
+a.two:hover > .resim {opacity: 1;}
+
 img {opacity: .5;}
 img:hover {opacity: 1;}
