@@ -76,7 +76,7 @@ a.three:hover {
 
 
 a.one:link {text-decoration: none; position: absolute; left: 1300px; top: 400px;}
-a.two:link {color: #808080; text-decoration: none; position: absolute; left: 1380px; top: 400px;}
+a.two:link {color: #808080; text-decoration: none; position: absolute; left: 1450px; top: 400px;}
 a.one:visited {text-decoration: none;}
 a.two:visited {color: #808080; text-decoration: none;}
 a.one:hover {text-decoration: underline;}
