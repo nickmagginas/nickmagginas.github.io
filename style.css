@@ -63,7 +63,7 @@ a.three:hover {
 	color: #808080;
 }
 
-#des{
+.des{
 	position: fixed;
 	left: 70%;
 	top: 26%;
@@ -71,8 +71,8 @@ a.three:hover {
 
 }
 
-#git{ position: fixed; left: 73%; top: 42%; color: #808080;}
-#res{ position: fixed; left: 80%; top: 42%; color: #808080;}
+.git{ position: fixed; left: 73%; top: 42%; color: #808080;}
+.res{ position: fixed; left: 80%; top: 42%; color: #808080;}
 
 
 a.one:link {text-decoration: none; position: fixed; left: 70%; top: 42%;}
